@@ -1,0 +1,78 @@
+{
+    "packages": [
+        {
+            "name": "my_name/my_package_name_a",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:bruce1237/multi-repo.git",
+                "reference": "9e1837ea9ae16f4077b0164fb918edb2eae1ea6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bruce1237/multi-repo/zipball/9e1837ea9ae16f4077b0164fb918edb2eae1ea6e",
+                "reference": "9e1837ea9ae16f4077b0164fb918edb2eae1ea6e",
+                "shasum": ""
+            },
+            "time": "2022-05-12T14:42:00+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "myProjectA\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "bruce1237",
+                    "email": "sunbohouse@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/bruce1237/multi-repo/tree/master",
+                "issues": "https://github.com/bruce1237/multi-repo/issues"
+            },
+            "install-path": "../my_name/my_package_name_a"
+        },
+        {
+            "name": "my_name/my_package_name_b",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bruce1237/composertt.git",
+                "reference": "b0e1b2a2e5361cfeb860da10654f076b759d4e17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bruce1237/composertt/zipball/b0e1b2a2e5361cfeb860da10654f076b759d4e17",
+                "reference": "b0e1b2a2e5361cfeb860da10654f076b759d4e17",
+                "shasum": ""
+            },
+            "time": "2022-05-12T14:37:36+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "myPackageB\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "bruce1237",
+                    "email": "sunbohouse@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/bruce1237/composertt/tree/master",
+                "issues": "https://github.com/bruce1237/composertt/issues"
+            },
+            "install-path": "../my_name/my_package_name_b"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

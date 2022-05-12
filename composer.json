@@ -1,0 +1,24 @@
+{
+    "name" : "bo/mytest",
+    "description": "this is the test repo for multi-repo",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bruce1237/multi-repo"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bruce1237/composertt"
+        }
+    ],
+    "require": {
+        "my_name/my_package_name_a":"dev-master",
+        "my_name/my_package_name_b":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "bo\\mytest\\":"src/"
+
+        }
+    }
+}

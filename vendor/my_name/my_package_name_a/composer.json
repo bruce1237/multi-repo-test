@@ -1,0 +1,15 @@
+{
+    "name": "my_name/my_package_name_a",
+    "autoload": {
+        "psr-4": {
+           "myProjectA\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bruce1237",
+            "email": "sunbohouse@gmail.com"
+        }
+    ],
+    "require": {}
+}
