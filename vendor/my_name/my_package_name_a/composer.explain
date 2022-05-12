@@ -1,0 +1,18 @@
+{
+    "name": "my_name/my_package_name_a",
+    //define the name of the package
+
+    "autoload": {
+        "psr-4": {
+           "myProjectA\\": "src/"
+           //define the root folder for namespace inside the package
+        }
+    },
+    "authors": [
+        {
+            "name": "bruce1237",
+            "email": "sunbohouse@gmail.com"
+        }
+    ],
+    "require": {}
+}

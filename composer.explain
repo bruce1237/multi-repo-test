@@ -1,0 +1,32 @@
+{
+    // define the name of the package 
+    "name" : "bo/mytest",
+    
+    "description": "this is the test repo for multi-repo",
+
+    // define the package repo
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bruce1237/multi-repo"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bruce1237/composertt"
+        }
+    ],
+
+    // define the branch or version for the package
+    "require": {
+        // name of the package : dev-branchName
+        "my_name/my_package_name_a":"dev-master",
+        "my_name/my_package_name_b":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            // define the root folder of the namespace
+            "bo\\mytest\\":"src/"
+
+        }
+    }
+}
